@@ -6,10 +6,8 @@ local function add(name)
 end
 
 add('theme')
-
 add('zen')
 
-add('gitstuff')
 add('sleuth')
 add('autopairs')
 add('lualine')

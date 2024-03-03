@@ -20,4 +20,6 @@ add('telescope')
 
 add('treesitter')
 
+add('vimwiki')
+
 return plugins

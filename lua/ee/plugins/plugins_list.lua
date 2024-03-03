@@ -22,11 +22,4 @@ add('telescope')
 
 add('treesitter')
 
-add('languages.rust')
-add('languages.java')
-
-add('lsp')
-add('cmp')
-add('copilot')
-
 return plugins

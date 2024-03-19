@@ -13,7 +13,7 @@ return {
         local configs = require('nvim-treesitter.configs')
         configs.setup({
             sync_install = false,
-            auto_install = true,
+            auto_install = false,
             highlight = { enable = true },
             indent = { enable = true },
         })

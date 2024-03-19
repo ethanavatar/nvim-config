@@ -40,6 +40,10 @@ require('lazy').setup({
     spec = plugins_spec,
     defaults = { lazy = true },
     lockfile = vim.fn.stdpath('config') .. '/lazy-lock.json',
+    dev = {
+        path = vim.fn.stdpath('config') .. '/local-plugins',
+        fallback = false,
+    },
     install = {
         missing = true,
         colorscheme = { 'gruvbox' },

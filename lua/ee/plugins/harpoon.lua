@@ -3,7 +3,10 @@ return {
     branch = 'harpoon2',
     event = 'VeryLazy',
     dependencies = {
-        'nvim-lua/plenary.nvim',
+        {
+            'nvim-lua/plenary.nvim',
+            tag = 'v0.1.4',
+        },
     },
     config = function()
         local harpoon = require('harpoon')

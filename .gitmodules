@@ -1,0 +1,3 @@
+[submodule "local-plugins/plenary.nvim"]
+	path = local-plugins/plenary.nvim
+	url = https://github.com/ethanavatar/plenary.nvim

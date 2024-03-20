@@ -4,8 +4,9 @@ return {
     event = 'VeryLazy',
     dependencies = {
         {
-            'nvim-lua/plenary.nvim',
-            tag = 'v0.1.4',
+            'ethanavatar/plenary.nvim',
+            branch = 'master',
+            dev = true,
         },
     },
     config = function()

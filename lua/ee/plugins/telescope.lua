@@ -23,8 +23,9 @@ return {
     tag = '0.1.6',
     dependencies = {
         {
-            'nvim-lua/plenary.nvim',
-            tag = 'v0.1.4',
+            'ethanavatar/plenary.nvim',
+            branch = 'master',
+            dev = true,
         },
     },
     opts = {

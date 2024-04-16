@@ -4,10 +4,12 @@ return {
     dependencies = {
         'neovim/nvim-lspconfig',
         'hrsh7th/cmp-nvim-lsp-signature-help',
+        'ray-x/cmp-treesitter',
 
         -- Snippet Engine & its associated nvim-cmp source
         'L3MON4D3/LuaSnip',
         'saadparwaiz1/cmp_luasnip',
+        'ray-x/cmp-treesitter',
 
         -- Adds a number of user-friendly snippets
         'rafamadriz/friendly-snippets',
@@ -64,6 +66,7 @@ return {
             sources = {
                 { name = 'nvim_lsp' },
                 { name = 'nvim_lsp_signature_help' },
+                { name = 'treesitter' },
                 { name = 'luasnip' },
             },
         })

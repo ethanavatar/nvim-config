@@ -6,6 +6,10 @@ vim.keymap.set('n', '<leader>n', '<CMD>Oil --float<CR>', { desc = 'Open parent d
 -- This is better than `"_dP` because it doesn't mess up in blockwise visual mode
 vim.keymap.set({ 'x', 'n' }, 'p', '"0p', { desc = 'Replace-paste without overwriting the yank register' })
 
+-- I'm not sure if this is a solution to a problem that I created or not
+-- but it seems to work fine
+vim.keymap.set({ 'x', 'n' }, 'd', '""d', { desc = 'Delete into the paste register' })
+
 vim.keymap.set('n', 'n', 'nzz', { desc = 'Move to next search result and center the view on the cursor' })
 vim.keymap.set('n', 'N', 'Nzz', { desc = 'Move to previous search result and center the view on the cursor' })
 vim.keymap.set('n', '}', '}zz', { desc = 'Move to next paragraph and center the view on the cursor' })

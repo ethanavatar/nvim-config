@@ -47,3 +47,10 @@ vim.api.nvim_create_autocmd('TextYankPost', {
     group = highlight_group,
     pattern = '*',
 })
+
+vim.cmd([[
+    augroup _astro
+    autocmd!
+    autocmd BufRead,BufEnter *.ul set syntax=rust
+    augroup end
+]])

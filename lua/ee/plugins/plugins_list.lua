@@ -19,5 +19,6 @@ add('file_navigation')
 add('telescope')
 
 add('treesitter')
+add('completion')
 
 return plugins

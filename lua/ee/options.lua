@@ -20,7 +20,7 @@ vim.diagnostic.config({
     virtual_text = false,
 })
 
-vim.o.mouse = 'a'
+vim.o.mouse = ''
 
 vim.o.breakindent = true
 
